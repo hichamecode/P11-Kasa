@@ -1,0 +1,41 @@
+.tag-container {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    margin-bottom: 24px;
+    margin-top: 20px;
+
+    .tag-wrapper {
+        background: #FF6060;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25px;
+
+        .tag {
+            color: white;
+            font-family: Montserrat;
+            font-weight: 700;
+            font-size: 0.875rem;
+            text-align: center;
+            padding: 3px 10px;
+
+        }
+    }
+}
+
+/* responsive */
+
+@media screen and (max-width: 769px) {
+    .tag-container {
+
+        .tag-wrapper {
+            height: 18px;
+
+            .tag {
+                font-size: 0.625rem;
+            }
+        }
+    }
+}

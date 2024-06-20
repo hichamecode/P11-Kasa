@@ -1,0 +1,87 @@
+.rent-header {
+    display: flex;
+    justify-content: space-between;
+
+    .title {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 2.25rem;
+        line-height: 51.34px;
+        color: #FF6060;
+    }
+
+    .location {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 1.125rem;
+        line-height: 21.64px;
+    }
+
+    .host-container {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        .host-name {
+            font-family: Montserrat;
+            font-weight: 500;
+            font-size: 1.125rem;
+            color: #FF6060;
+            text-align: right;
+        }
+
+        .host-image {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+        }
+    }
+}
+
+/* responsive */
+
+@media screen and (max-width: 769px) {
+
+    .rent-header {
+
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+
+        .title-location-container {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            .title {
+                font-size: 1.125rem;
+                line-height: 25.67px;
+            }
+
+            .location {
+                font-size: 0.875rem;
+            }
+        }
+
+
+        .host-rating-container {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .host-container {
+
+            .host-name {
+                font-size: 0.75rem;
+            }
+
+            .host-image {
+                width: 32px;
+                height: 32px;
+            }
+        }
+    }
+}
+

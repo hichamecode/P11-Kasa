@@ -1,0 +1,39 @@
+
+.rating-container {
+    display: flex;
+    margin-top: 21px;
+    gap: 8px;
+
+    .rating-star {
+        list-style-type: none;
+
+        & img {
+            width: 36px;
+            height: 36px;
+        }
+    }
+
+
+
+    .rating-star-liked {
+        filter: invert(54%) sepia(98%) saturate(2271%) hue-rotate(323deg) brightness(101%) contrast(110%);
+    }
+}
+
+/* responsive */
+
+@media screen and (max-width: 769px) {
+
+    .rating-container {
+        display: flex;
+        margin-top: 21px;
+        gap: 4px;
+    
+        .rating-star img {
+           width: 18px;
+           height: 18px;
+        }
+    
+
+    }
+}

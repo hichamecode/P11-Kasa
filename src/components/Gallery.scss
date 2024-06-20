@@ -1,0 +1,17 @@
+
+
+.gallery {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 50px 0px;
+}
