@@ -3,7 +3,7 @@ import collapseIconUp from "../assets/collapse-icon-up.png";
 import React, { useState } from "react";
 import data from "../datas/data.json"
 
-function CollapseElement ({title, text, className}) {
+function CollapseElement ({title, text}) {
 
   const [textVisible, setTextVisible] = useState(false)
 
@@ -13,7 +13,7 @@ function CollapseElement ({title, text, className}) {
   }
 
   return(
-    <li key={data.id}  className={`collapse-element ${className}`}>
+    <li key={data.id}  className={`collapse-element`}>
     <header className="collapse-header">
       <h3 className="collapse-header-title">{title}</h3>
       <img
@@ -29,3 +29,4 @@ function CollapseElement ({title, text, className}) {
 }
 
 export default CollapseElement;
+

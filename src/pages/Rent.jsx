@@ -15,22 +15,21 @@ import React from "react";
 const Rent = () => {
   const { id } = useParams();
   const [rent, setRent] = useState(data.find((item) => item.id === id))
-  const [count, setCount] = useState(0)
+
+  // setRent est censé être mis à jour depuis une API (données dynamiques)
 
   const navigate = useNavigate();
 
   useEffect(() => {
 
-    setCount(1)
     if (rent === undefined) {
       navigate("/404");
     }
-  }, []);
+  }, [rent, navigate]);
 
-
-if (rent === undefined) {
-  return <></>
-}
+  if (!rent) {
+    return null;
+  }
 
   return (
     <Layout className="layout">
