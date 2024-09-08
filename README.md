@@ -1,78 +1,93 @@
-# Kasa
+# Kasa 🏠
 
-Kasa is a front-end interface built with React and React Router, designed to showcase rental properties.
+Kasa is a front-end interface built with **React** and **React Router**, designed to showcase rental properties.
 
-## Description
+![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react) ![React Router](https://img.shields.io/badge/React%20Router-6.x-orange?logo=reactrouter) ![Sass](https://img.shields.io/badge/Sass-styling-pink?logo=sass)
 
-This project aims to create a modern, responsive web application for Kasa, a company specializing in rental property listings. The interface is built using React to ensure a smooth, single-page application experience, with React Router handling navigation between different views.
+---
 
-## Objectives
+## 📖 Description
 
-- Develop a responsive and intuitive user interface
-- Implement dynamic routing using React Router
-- Create reusable React components for efficient code management
-- Ensure smooth navigation and state management within the application
-- Optimize performance for quick loading and seamless user experience
+This project aims to create a modern, responsive web application for **Kasa**, a company specializing in rental property listings. The interface is built using React to ensure a smooth, single-page application experience, with React Router handling navigation between different views.
 
-## Technologies
+## 🎯 Objectives
 
-- React 18.2.0
-- React Router 6.x
-- JS
-- HTML
-- CSS
-- Sass (for styling)
+- Develop a **responsive** and **intuitive** user interface
+- Implement **dynamic routing** using React Router
+- Create **reusable React components** for efficient code management
+- Ensure **smooth navigation** and **state management** within the application
+- **Optimize performance** for quick loading and a seamless user experience
 
-## Installation
+---
+
+## 🛠️ Technologies
+
+- **React** 18.2.0
+- **React Router** 6.x
+- **JavaScript**
+- **HTML**
+- **CSS**
+- **Sass** (for styling)
+
+---
+
+## ⚙️ Installation
 
 To set up the project locally, follow these steps:
 
-1. Ensure you have Node.js installed (version 14 or higher)
-2. Open your terminal
-3. Run the following command:
+1. Ensure you have **Node.js** installed (version 14 or higher).
+2. Open your terminal and run the following command to clone the repository:
 
-```bash
-git clone https://github.com/hichamecode/P11-Kasa.git
-```
+    ```bash
+    git clone https://github.com/hichamecode/P11-Kasa.git
+    ```
 
-4. Navigate to the project directory:
+3. Navigate to the project directory:
 
-```bash
-cd P11-Kasa
-```
+    ```bash
+    cd P11-Kasa
+    ```
 
-5. Install the dependencies:
+4. Install the dependencies:
 
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 
-6. Start the development server:
+5. Start the development server:
 
-```bash
-npm start
-```
+    ```bash
+    npm start
+    ```
 
-The application should now be running on `http://localhost:3000`.
+6. Open your browser and go to: `http://localhost:3000`.
 
-## Features
+---
+
+## 🌟 Features
 
 - **Dynamic Property Listings**: Display rental properties with detailed information
 - **Responsive Design**: Ensures a seamless experience across various devices and screen sizes
 - **Interactive UI Components**: Includes elements like image carousels and collapsible sections
 - **Client-Side Routing**: Utilizes React Router for smooth navigation without page reloads
 
-## Project Structure
+---
+
+## 🗂️ Project Structure
 
 The project is organized as follows:
 
-- `src/`: Contains the source code
-  - `components/`: Reusable React components
-  - `pages/`: Individual page components
-  - `assets/`: Images, banners and logos
-  - `routes/`: Ensuring the front navigation 
-  - `datas/`: JSON files with mock data
-- `public/`: Static assets and HTML template
+```bash
+P11-Kasa/
+├── public/               # Static assets and HTML template
+└── src/                  
+    ├── assets/           # Images, banners, and logos
+    ├── components/       # Reusable React components
+    ├── datas/            # JSON files with mock data
+    ├── pages/            # Individual page components
+    └── routes/           # React Router setup for navigation
+```
+---
 
 ## Contribution
 
