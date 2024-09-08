@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Kasa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Kasa is a front-end interface built with React and React Router, designed to showcase rental properties.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This project aims to create a modern, responsive web application for Kasa, a company specializing in rental property listings. The interface is built using React to ensure a smooth, single-page application experience, with React Router handling navigation between different views.
 
-### `npm start`
+## Objectives
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Develop a responsive and intuitive user interface
+- Implement dynamic routing using React Router
+- Create reusable React components for efficient code management
+- Ensure smooth navigation and state management within the application
+- Optimize performance for quick loading and seamless user experience
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies
 
-### `npm test`
+- React 18.2.0
+- React Router 6.x
+- JS
+- HTML
+- CSS
+- Sass (for styling)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To set up the project locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Ensure you have Node.js installed (version 14 or higher)
+2. Open your terminal
+3. Run the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/hichamecode/P11-Kasa.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Navigate to the project directory:
 
-### `npm run eject`
+```bash
+cd P11-Kasa
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Install the dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+6. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+The application should now be running on `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Dynamic Property Listings**: Display rental properties with detailed information
+- **Responsive Design**: Ensures a seamless experience across various devices and screen sizes
+- **Interactive UI Components**: Includes elements like image carousels and collapsible sections
+- **Client-Side Routing**: Utilizes React Router for smooth navigation without page reloads
 
-### Code Splitting
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The project is organized as follows:
 
-### Analyzing the Bundle Size
+- `src/`: Contains the source code
+  - `components/`: Reusable React components
+  - `pages/`: Individual page components
+  - `assets/`: Images, banners and logos
+  - `routes/`: Ensuring the front navigation 
+  - `datas/`: JSON files with mock data
+- `public/`: Static assets and HTML template
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contribution
 
-### Making a Progressive Web App
+This project was developed as part of the OpenClassrooms Web Developer training program. Contributions are not currently being accepted.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is for educational purposes within the OpenClassrooms curriculum and does not have a specific open-source license.
